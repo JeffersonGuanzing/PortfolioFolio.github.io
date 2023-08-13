@@ -3995,6 +3995,9 @@ input, select, textarea {
 .custom-tech-icon .fab.fa-sass {
     color: #CD6799; /* SASS color */
 }
+.custom-tech-icon .fab.fa-jquery {
+    color: blue; /* SASS color */
+}
 
 /* Add media queries for responsiveness */
 @media screen and (max-width: 768px) {

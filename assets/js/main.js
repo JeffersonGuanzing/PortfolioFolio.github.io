@@ -143,3 +143,35 @@
 			});
 
 })(jQuery);
+
+console.log('Main.js')
+
+
+const observer = new IntersectionObserver((entries) => {
+	entries.forEach((entry) => {
+		console.log(entry)
+		if(entry.isIntersecting) {
+			entry.target.classList.add('show')
+		} else {
+			entry.target.classList.remove('show')
+		}
+	})
+})
+const hiddenElements = document.querySelectorAll('wrapper')
+hiddenElements.forEach((el) => observer.observe(el))
+
+function downloadResume() {
+	var link = document.createElement("a");
+	link.href = "./assets/CV_Guanzing_Jefferson.pdf";
+	link.download = "CV_Guanzing_Jefferson.pdf";
+	link.click();
+  }
+
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+	  e.preventDefault();
+	  document.querySelector(this.getAttribute('href')).scrollIntoView({
+	  behavior: 'smooth'
+	  });
+  });
+  });

@@ -44,8 +44,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .cta-btn {
+	margin: 2em auto;
 	display: flex;
-	gap: 2em;
+	justify-content: center;
+	align-items: center;
+	gap: 3em;
+
 }
 
 ol, ul {
@@ -208,7 +212,6 @@ input, select, textarea {
 			font-size: 0.8em;
 			font-weight: 700;
 			letter-spacing: 0.1em;
-			margin: 0 0 2em 0;
 			text-transform: uppercase;
 		}
 
@@ -240,7 +243,6 @@ input, select, textarea {
 				margin-right: 0.85em;
 				text-align: center;
 				text-indent: 0.15em;
-				vertical-align: middle;
 				width: 2em;
 			}
 
@@ -1366,6 +1368,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+			.cta-btn {
+				flex-direction: column;
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -3923,8 +3928,8 @@ input, select, textarea {
 					box-shadow: inset 0 -1px 0 0 #2d3a69, 0 1px 0 0 #2d3a69;
 				}
 
-				
-				
+	
+
 		/* Add this CSS to style the provided section and make it responsive */
 .custom-content {
     text-align: center;

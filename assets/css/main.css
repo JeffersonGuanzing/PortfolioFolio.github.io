@@ -3427,6 +3427,7 @@ input, select, textarea {
 			}
 
 		#banner h2 {
+
 			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
 			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
 			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
@@ -3995,6 +3996,8 @@ input, select, textarea {
 .custom-tech-icon .fab.fa-sass {
     color: #CD6799; /* SASS color */
 }
+
+
 
 /* Add media queries for responsiveness */
 @media screen and (max-width: 768px) {

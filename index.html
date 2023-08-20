@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 		<link rel="icon" href="./assets/css/images/p-solid.svg" type="image/png">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -43,14 +44,14 @@
 							<h2>My name is Jefferson Guanzing
 							</h2>
 							<p>I'm a passionate developer but more importantly I'm passionate about technology </p>
-							<button class="btn btn-primary"><a href="#four" style="text-decoration: none;"> View Projects </a></button>
+							<button class="btn btn-primary"><a href="#four"> View Projects </a></button>
 						</div>
 					</section>
 
 				<!-- Wrapper -->
 					<section id="wrapper">
 							<section id="one" class="wrapper spotlight style1">
-								<div class="inner">
+								<div class="inner" data-aos="fade-left">
 									<div class="content">
 										<h2 class="major">About Me</h2>
 										<p>I'm Jefferson Guanzing, a tech enthusiast deeply passionate about crafting seamless web experiences. With a knack for elegant code and an eye on industry trends, I'm dedicated to merging innovation with creativity. Let's build the future together through technology.</p>
@@ -60,7 +61,7 @@
 							</section>
 
 							<section id="tech-stack" class="custom-wrapper alt custom-spotlight custom-style2">
-								<div class="custom-inner">
+								<div class="custom-inner" data-aos="fade-up">
 									<div class="custom-content">
 										<h2 class="custom-major">Tech Stack & Dev Tools</h2>
 										<div class="custom-tech-icons">
@@ -110,7 +111,7 @@
 									<h2 class="major">Projects</h2>
 									<p>Crafting Experiences: Transforming Ideas into Intuitive Web Solutions.</p>
 									<section class="features">
-										<article>
+										<article data-aos="fade-up">
 											<a href="#" class="image"><img src="./images/NPO.png" alt="NPO Monitoring System App" /></a>
 											<h3 class="major">National Printing Office Work Order Tracking System</h3>
 											<p>I developed a personal project, the National Printing Office Work Order Tracking System, using AJAX, PHP, MySQL, and Bootstrap. This project streamlined work processes with dynamic features, efficient scripting, responsive design, and effective database management. It improved work order management and enhanced my database technology skills.
@@ -120,7 +121,7 @@
 												<a href="https://github.com/JeffersonGuanzing/npoTrackingSystem.io.git" class="special" target="_blank">View Code</a>
 											</div>
 										</article>
-										<article>
+										<article data-aos="fade-up">
 											<a href="#" class="image"><img src="./images/Nike Store.png" alt="Nike Store App" /></a>
 											<h3 class="major">Nike Store</h3>
 											<p>Explore my web development prowess in this project crafted with HTML, CSS, and JavaScript. Proficient in Grid, Flexbox, and Sass, I've combined aesthetics and functionality to create a seamless user experience.</p>
@@ -129,7 +130,7 @@
 												<a href="https://github.com/JeffersonGuanzing/nikeStore.github.io.git" class="special" target="_blank">View Code</a>
 											</div>
 										</article>
-										<article>
+										<article data-aos="fade-up">
 											<a href="#" class="image"><img src="./images/toDoList.png" alt="To Do List App" /></a>
 											<h3 class="major">To Do List App</h3>
 											<p>Step into the realm of task management excellence with your personalized To-Do List app, where the synergy of JavaScript and Object-Oriented Programming yields a superior solution. This app goes beyond mere organization, boasting a refined interface designed with Bootstrap to elevate both efficiency and aesthetics. Seamlessly navigate your tasks using the latest web technologies, making productivity an enjoyable journey starting right here.											</p>
@@ -138,7 +139,7 @@
 												<a href="https://github.com/JeffersonGuanzing/toDoList.github.io.git" class="special" target="_blank">View Code</a>
 											</div>
 										</article>
-										<article>
+										<article data-aos="fade-up">
 											<a href="#" class="image"><img src="./images/NFT.png" alt="NFT Card" /></a>
 											<h3 class="major">NFT Card</h3>
 											<p>In my portfolio, I proudly feature an NFT Card Design created from a Frontend Mentor challenge, demonstrating my expertise in Flexbox and Semantic HTML. Through careful use of Flexbox, I crafted a responsive layout for various screen sizes, while Semantic HTML improved accessibility and SEO. This project showcases my development as a front-end designer and a creative professional, embodying the seamless fusion of design and technical abilities nurtured by the challenge.										</p>
@@ -190,6 +191,7 @@
 			</div>
 
 		<!-- Scripts -->
+			<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
@@ -212,7 +214,7 @@
 					});
 				});
 				});
-
+  AOS.init();
 				
 			  </script>
 

@@ -4250,7 +4250,11 @@ input, select, textarea {
 			#footer .inner .copyright li:first-child {
 				margin-top: 0;
 			}
-
+		.btn-primary {
+			a {
+				padding: 2em;
+			}
+		}
 	}
 
 	@media screen and (max-width: 360px) {
